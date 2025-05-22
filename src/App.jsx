@@ -13,7 +13,6 @@ const App = () => {
   const [showAll, setShowAll] = React.useState(true)
   //event handlers
   const changeCategory = (category) => {
-    console.log(category)
     setCategory(category)
     setShowAll(false)
   }

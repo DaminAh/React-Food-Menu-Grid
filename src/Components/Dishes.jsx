@@ -1,7 +1,6 @@
 import React from 'react'
 import Dish from './Dish'
 const Dishes = ({ recepies }) => {
-  console.log(recepies)
   return (
     <div className="dishes-grid">
       {recepies.map((item) => (
